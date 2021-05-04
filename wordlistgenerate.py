@@ -24,7 +24,7 @@ for i in list(perm):
     print(duzyazi + "\n")
     dosya.close()
 
-"""    
+"""                                        # 1 den 1000 e kadar olan sayıları wordlist e ekleme kısmı.
 for i in range(1,999+2):
     i = str(i)
     dosya = open("wordlist.txt","a")
